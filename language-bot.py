@@ -46,16 +46,16 @@ Tipp: Wiederhole jeden Satz laut.
             """
         elif topic == "Hören":
             return """
-### 🎧 Hörverstehen (A1)
+### Hörverstehen (A1)
 
  **Audio-Satz:** „Guten Morgen, ich heiße Thomas.“  
  Frage: Was ist der Name der Person?
 
-🔉 Du kannst [diese Übung anhören](https://www.schubert-verlag.de/aufgaben/uebungen_a1/a1_hoeren.htm)
+Du kannst [diese Übung anhören](https://www.schubert-verlag.de/aufgaben/uebungen_a1/a1_hoeren.htm)
             """
         elif topic == "Schreiben":
             return """
-### ✍️ Schreiben (A1)
+### ✍Schreiben (A1)
 
 **Aufgabe:**  
 Schreibe einen kurzen Text über dich (3–4 Sätze).  
@@ -78,13 +78,13 @@ Du kannst deinen Text unten eingeben:
 **Antwortmöglichkeiten:**  
 - Berlin  
 - München  
-- **Hamburg** ✅
+- **Hamburg** 
             """
 
     elif level == "A2":
         if topic == "Begrüßungen":
             return """
-### 👋 Begrüßungen (A2)
+### Begrüßungen (A2)
 
 - Schön, dich zu sehen!
 - Lange nicht gesehen!
@@ -125,13 +125,13 @@ Beispiel:
             """
         elif topic == "Lesen":
             return """
-### 📖 Leseverstehen (A2)
+### Leseverstehen (A2)
 
 **Text:**  
 > Am Freitag hat Maria Geburtstag gefeiert. Viele Freunde waren da. Es gab Kuchen und Musik. Alle hatten Spaß.
 
  Frage: Was wurde gefeiert?  
-**Antwort:** Marias Geburtstag 🎂
+**Antwort:** Marias Geburtstag 
             """
 
     return "Inhalt folgt bald."
